@@ -1,0 +1,42 @@
+.project_card {
+    max-width: 370px !important;
+
+}
+
+.project_card img {
+   width: 100%;
+    border-radius: 8px;
+}
+
+.project_card h5 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: left;
+    color: #1D2130;
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+
+.project_card div {
+    width: 100% !;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project_card div p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #1D2130;
+}
+
+.project_card div svg {
+    font-size: 35px;
+    color: #0C96E2;
+    cursor: pointer;
+}

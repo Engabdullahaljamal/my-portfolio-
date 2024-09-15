@@ -1,0 +1,77 @@
+.skill_line {
+    width: 587.07px;
+    height: 15px;
+    border-radius: 6px;
+    background-color: #EDECEC;
+    display: flex;
+    position: relative;
+}
+
+.skill_percent {
+    background-color: #0C96E2;
+    width: 0px;
+    height: 15px;
+    border-radius: 6px;
+    position: absolute;
+}
+
+.skill_circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #EDECEC;
+    border: 3px solid #0C96E2;
+    z-index: 5;
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+}
+
+.skill_circle svg {
+    position: absolute;
+    bottom: 25px;
+    font-size: 25px;
+    color: #0C96E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skill_circle p {
+    position: absolute;
+    color: white !important;
+    font-size: 10px;
+    bottom: 26px;
+    left: 3px;
+
+}
+
+
+.skill_name {
+    font-family: Poppins;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    line-height: 36px !important;
+    letter-spacing: 0.03em !important;
+    text-align: left !important;
+    margin-bottom: 10px !important;
+
+
+}
+
+.skill_name.dark {
+    color: white !important;
+}
+
+
+@media screen and (max-width:700px) {
+
+    .skill_line_container {
+        width: 100%;
+    }
+
+    .skill_line{
+        width: 100%;
+    }
+}

@@ -1,0 +1,121 @@
+.experience_card {
+    width: 50%;
+    border-left: 3px dashed #1B2431;
+    padding: 0px 20px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    position: relative;
+
+}
+
+.experience_card.education {
+    padding-bottom: 0px;
+    height: max-content;
+}
+
+.experience_card.education:last-child {
+    padding-bottom: 30px;
+    height: max-content;
+}
+
+.experience_card.dark {
+    border-left: 3px dashed white;
+
+}
+
+.experience_card.dark h3 {
+    color: white;
+
+}
+
+.experience_card .cir {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #1B2431;
+    background-color: #0C96E2;
+    left: -12px;
+
+}
+
+.experience_card.dark .cir {
+    border: 1px solid white;
+
+}
+
+.experience_card h3 {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #344054;
+    padding-bottom: 15px;
+
+
+}
+
+.experience_card a {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #0C96E2;
+    display: block;
+    padding-bottom: 7px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.experience_card li {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #98A2B3;
+    padding-bottom: 7px;
+
+
+
+}
+
+.experience_card span {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #6b727f;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding-bottom: 7px;
+}
+
+.experience_card.dark span {
+    color: #c6d0e3;
+    ;
+}
+
+.experience_card span div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.experience_card span div:first-child svg:first-child {
+    font-size: 17px;
+
+}

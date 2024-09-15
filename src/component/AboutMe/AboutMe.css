@@ -1,0 +1,151 @@
+.about_me {
+    padding: 100px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about_me .circles {
+    position: relative;
+
+}
+
+.about_me .circles img {
+    width: 83.59px;
+    height: 86.96px;
+    position: absolute;
+
+}
+
+#html_img {
+    left: 80px;
+    top: 80px;
+}
+
+#figma_img {
+    right: 80px;
+    top: 180px;
+}
+
+#css_img {
+    right: 220px;
+    top: 220px;
+}
+
+#git_img {
+    left: 100px;
+    top: 310px;
+}
+
+#react_img {
+    right: 80px;
+    top: 350px;
+}
+
+.about_me.dark {
+    background-color: #1B2431;
+}
+
+.about_me.dark h2,
+.about_me.dark p {
+    color: white;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: 80px !important;
+}
+
+.skills h2 {
+    width: 100%;
+    color: #1D2130;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+.skills p {
+    max-width: 598px;
+    color: #1D2130;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+@media screen and (max-width:1325px) {
+    .about_me .skills {
+        margin-right: 0px !important;
+    }
+}
+
+@media screen and (max-width:1227px) {
+    .about_me .circles {
+        margin: 0 auto !important;
+
+    }
+
+    .about_me .skills {
+        margin: 0 auto !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about_me {
+        padding: 100px 20px;
+    }
+
+    .circles :first-child {
+        width: 90vw;
+
+    }
+
+    .circles img {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    #html_img {
+        top: 120px;
+    }
+
+    #css_img {
+        left: 60px;
+        right: 0px;
+    }
+
+    #react_img {
+        right: 70px;
+        top: 335px;
+
+    }
+}
+
+@media screen and (max-width:400px) {
+    #figma_img {
+        right: 70px;
+    }
+
+    #css_img {
+       left: 33px;
+    }
+
+    #react_img {
+        right: 55px;
+        top: 330px;
+
+    }
+
+}
