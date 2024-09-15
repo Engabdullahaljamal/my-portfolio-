@@ -16,7 +16,8 @@ import online_course from './../../assets/images/online_course.jpeg'
 function Projects({ theme }) {
     const button = {
         name: 'View Github ',
-        icon: <GoArrowUpRight />
+        icon: <GoArrowUpRight />,
+        href:'https://github.com/Engabdullahaljamal'
     }
 
     const card_info = [

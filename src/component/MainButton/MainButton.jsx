@@ -2,7 +2,7 @@ import './MainButton.css'
 
 function MainButton({ button }) {
     return (
-        <button className='main_button'>{button.name} {button.icon}</button>
+        <a href={button.href} className='main_button'>{button.name} {button.icon}</a>
     )
 }
 

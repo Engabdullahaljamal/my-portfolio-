@@ -7,7 +7,9 @@ import MainButton from '../MainButton/MainButton';
 function Try({ theme }) {
     const button={
     name :'Contact',
-    icon:<FaArrowRight />
+    icon:<FaArrowRight />,
+    href:'#contact'
+
     }
     return (
         <div className={`try ${theme}`}>

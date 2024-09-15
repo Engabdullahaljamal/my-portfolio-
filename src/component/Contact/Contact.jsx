@@ -8,7 +8,8 @@ import MainButton from '../MainButton/MainButton';
 function Contact({ theme }) {
     const button = {
         name: 'Send Message',
-        icon: ''
+        icon: '',
+        href:"mailto:Engabdullahaljamal@gmail.com"
     }
     const contact_info = [
         {
