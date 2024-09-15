@@ -59,6 +59,18 @@
     .experience_card {
         width: 100%;
     }
+    .experience_card_container .experience_card:nth-child(3) {
+    padding-bottom: 50px;
+}
+
+.experience_card.education {
+    padding-bottom: 50px !important;
+    height: max-content;
+}
+.experience_card.education:last-child {
+    padding-bottom: 0px !important;
+    height: max-content;
+}
 }
 
 @media screen and (max-width:600px) {

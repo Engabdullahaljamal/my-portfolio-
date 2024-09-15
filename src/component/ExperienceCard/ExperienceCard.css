@@ -8,15 +8,7 @@
 
 }
 
-.experience_card.education {
-    padding-bottom: 0px;
-    height: max-content;
-}
 
-.experience_card.education:last-child {
-    padding-bottom: 30px;
-    height: max-content;
-}
 
 .experience_card.dark {
     border-left: 3px dashed white;
