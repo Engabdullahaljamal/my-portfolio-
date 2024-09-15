@@ -26,8 +26,7 @@ function App() {
       <Projects theme={theme} />
       <Contact theme={theme} />
       <Footer theme={theme} />
-
-    </>
+</>
   )
 }
 
