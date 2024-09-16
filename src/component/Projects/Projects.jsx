@@ -2,10 +2,9 @@ import MainButton from '../MainButton/MainButton'
 import ProjectCard from '../ProjectCard/ProjectCard';
 import './Projects.css'
 import { GoArrowUpRight } from "react-icons/go";
-import card_img from './../../assets/images/card_img.png'
 import educational from './../../assets/images/educational.jpeg'
 import little from './../../assets/images/little.jpeg'
-import villa from './../../assets/images/villa.jpeg'
+import villa from './../../assets/images/villa.jpg'
 import dashboard from './../../assets/images/dashboard.jpeg'
 import shoes from './../../assets/images/shoes.jpeg'
 import institute from './../../assets/images/education_library.jpg'
@@ -54,7 +53,7 @@ function Projects({ theme }) {
         {
             img: institute,
             title: 'Education institute',
-            desc: 'Html-Css3-',
+            desc: 'Html-Css3',
             href: 'https://engabdullahaljamal.github.io/task4_2/',
         },
         {
