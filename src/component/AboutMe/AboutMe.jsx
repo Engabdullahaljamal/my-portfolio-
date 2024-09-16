@@ -63,7 +63,7 @@ function AboutMe({ theme }) {
             </div>
             <div className='skills'>
                 <h2>About Me </h2>
-                <p>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
+                <p>Proven Front-End Developer skilled in React.js, API integration, and responsive design. Experienced in collaborating with UX/UI teams to deliver innovative solutions that enhance web functionality and user experience. Proficient in Git and dedicated to staying updated with the latest front-end technologies.</p>
                 {
                     skills.map(s => {
                         return <SkillLine skill={s} theme={theme} />
