@@ -25,12 +25,17 @@
 }
 
 .my_navbar ul {
+
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     list-style: none;
 
+}
+
+.my_navbar ul li {
+    text-align: center;
 }
 
 .my_navbar ul li a {
@@ -123,9 +128,13 @@
 
     #nav_list li {
         padding-top: 10px;
+        width: 100% !important;
     }
 
-   
-}
+    #nav_list li a {
+        display: block !important;
+        width: 100% !important;
+    }
 
-@media screen and (max-width:600px) {}
+
+}
