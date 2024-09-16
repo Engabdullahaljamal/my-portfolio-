@@ -8,7 +8,7 @@ import little from './../../assets/images/little.jpeg'
 import villa from './../../assets/images/villa.jpeg'
 import dashboard from './../../assets/images/dashboard.jpeg'
 import shoes from './../../assets/images/shoes.jpeg'
-import institute from './../../assets/images/institute.jpeg'
+import institute from './../../assets/images/education_library.jpg'
 import crypto from './../../assets/images/crypto.jpeg'
 import mobile from './../../assets/images/mobile.jpeg'
 import online_course from './../../assets/images/online_course.jpeg'
@@ -67,7 +67,7 @@ function Projects({ theme }) {
             img: mobile,
             title: 'mobile shop',
             desc: 'Html-Css3-React',
-            href: 'https://github.com/Engabdullahaljamal/Task6_2.git',
+            href: 'https://engabdullahaljamal.github.io/Task6_2/',
         },
         {
             img: online_course,
