@@ -42,7 +42,7 @@ function Projects({ theme }) {
         {
             img: dashboard,
             title: 'dash board',
-            desc: 'Html-Css3-React',
+            desc: 'Html-Tailwind-React',
             href: 'https://github.com/Engabdullahaljamal/Dashboard.git'
         },
         {
