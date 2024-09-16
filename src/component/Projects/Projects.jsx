@@ -71,7 +71,7 @@ function Projects({ theme }) {
         {
             img: online_course,
             title: 'online course',
-            desc: 'Html-Css3-Vanilla ',
+            desc: 'Html-Css3',
             href: 'https://engabdullahaljamal.github.io/task3_2/',
         },
 
