@@ -28,10 +28,10 @@ function Projects({ theme }) {
             href: 'https://engabdullahaljamal.github.io/Educational-platform/',
         },
         {
-            img: little,
-            title: 'Little lemon restaurant',
-            desc: 'Html-Css3- React',
-            href: 'https://engabdullahaljamal.github.io/little-lemon/'
+            img: dashboard,
+            title: 'Dashboard',
+            desc: 'Html-Tailwind-React',
+            href: 'https://github.com/Engabdullahaljamal/Dashboard.git'
         },
         {
             img: villa,
@@ -40,10 +40,10 @@ function Projects({ theme }) {
             href: 'https://engabdullahaljamal.github.io/Task3_Villa/'
         },
         {
-            img: dashboard,
-            title: 'dash board',
-            desc: 'Html-Tailwind-React',
-            href: 'https://github.com/Engabdullahaljamal/Dashboard.git'
+            img: little,
+            title: 'Little lemon restaurant',
+            desc: 'Html-Css3- React',
+            href: 'https://engabdullahaljamal.github.io/little-lemon/'
         },
         {
             img: shoes,
