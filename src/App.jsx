@@ -13,8 +13,9 @@ import Contact from './component/Contact/Contact'
 import Footer from './component/Footer/Footer'
 
 function App() {
+
   const [theme, seTheme] = useState('light')
-  console.log(theme)
+  
   return (
     <>
       <Navbar seTheme={seTheme} theme={theme} />
@@ -26,7 +27,7 @@ function App() {
       <Projects theme={theme} />
       <Contact theme={theme} />
       <Footer theme={theme} />
-</>
+    </>
   )
 }
 
