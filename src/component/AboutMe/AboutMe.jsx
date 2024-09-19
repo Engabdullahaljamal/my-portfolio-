@@ -65,8 +65,8 @@ function AboutMe({ theme }) {
                 <h2>About Me </h2>
                 <p>Proven Frontend Developer skilled in React.js, API integration, and responsive design. Experienced in collaborating with UX/UI teams to deliver innovative solutions that enhance web functionality and user experience. Proficient in Git and dedicated to staying updated with the latest frontend technologies.</p>
                 {
-                    skills.map(s => {
-                        return <SkillLine skill={s} theme={theme} />
+                    skills.map((s,i) => {
+                        return <SkillLine skill={s} theme={theme} key={i} />
                     })
                 }
 

@@ -32,15 +32,19 @@
     right: 220px;
     top: 220px;
 }
-
+.about_me.dark #git_img{
+    background-color: #1B2431;
+}
 #git_img {
     left: 100px;
     top: 310px;
+    background-color: white;
+    border-radius: 50%;
 }
 
 #react_img {
-    right: 80px;
-    top: 350px;
+    right: 75px;
+    top: 350px; 
 }
 
 .about_me.dark {
@@ -122,17 +126,23 @@
     }
 
     #css_img {
-        left: 60px;
+        left: 65px;
         right: 0px;
     }
 
     #react_img {
-        right: 70px;
+        right: 60px;
         top: 335px;
 
     }
 }
 
+@media screen and (max-width:500px){
+    #css_img {
+        left: 40px;
+        right: 0px;
+    }
+}
 @media screen and (max-width:400px) {
     #figma_img {
         right: 70px;

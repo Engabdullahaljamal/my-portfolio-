@@ -78,8 +78,8 @@ function Experience({ theme }) {
 
             <div className='experience_card_container'>
                 {
-                    experience.map(e => {
-                        return <ExperienceCard theme={theme} experience={e} />
+                    experience.map((e,i) => {
+                        return <ExperienceCard theme={theme} experience={e} key={i}/>
                     })
                 }
             </div>

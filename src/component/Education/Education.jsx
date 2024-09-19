@@ -42,8 +42,8 @@ function Education({ theme }) {
 
             <div className='experience_card_container'>
                 {
-                    education.map(e => {
-                        return <ExperienceCard theme={theme} experience={e} education='education' />
+                    education.map((e,i) => {
+                        return <ExperienceCard theme={theme} experience={e} education='education' key={i} />
                     })
                 }
             </div>

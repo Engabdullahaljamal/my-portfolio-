@@ -1,5 +1,5 @@
 import './Hero.css'
-import my_photo from './../../assets/images/my_photo.png'
+import my_photo from './../../assets/images/personal_img.png'
 
 function Hero({ theme }) {
     return (
