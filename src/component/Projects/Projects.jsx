@@ -58,7 +58,7 @@ function Projects({ theme }) {
         },
         {
             img: crypto,
-            title: 'crypto login,sign pages',
+            title: 'crypto login,sign up pages',
             desc: 'Html-Css3-React',
             href: 'https://engabdullahaljamal.github.io/crypto_log_sign_pages/',
         },
