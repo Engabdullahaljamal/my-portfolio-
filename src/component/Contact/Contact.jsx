@@ -25,7 +25,7 @@ function Contact({ theme }) {
         {
             icon: <IoLocationOutline />,
             title: 'Address',
-            value: 'Latakia,Syria',
+            value: 'New Jersy,USA',
         },
 
     ]
