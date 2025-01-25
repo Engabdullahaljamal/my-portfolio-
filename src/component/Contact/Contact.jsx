@@ -9,13 +9,13 @@ function Contact({ theme }) {
     const button = {
         name: 'Send Message',
         icon: '',
-        href:"mailto:Engabdullahaljamal@gmail.com"
+        href: "mailto:Engabdullahaljamal@gmail.com"
     }
     const contact_info = [
         {
             icon: <FiPhone />,
             title: 'Call me',
-            value: '+963985390098',
+            value: '201 693 0516',
         },
         {
             icon: <MdOutlineMail />,
@@ -25,7 +25,7 @@ function Contact({ theme }) {
         {
             icon: <IoLocationOutline />,
             title: 'Address',
-            value: 'New Jersey,USA',
+            value: 'Totowa,New Jersey,USA',
         },
 
     ]
@@ -54,7 +54,7 @@ function Contact({ theme }) {
                     </div>
                     <input type="text" placeholder='Phone number' />
                     <textarea name="message" id="" placeholder='Message'></textarea>
-                    <MainButton button={button}/>
+                    <MainButton button={button} />
 
                 </form>
             </div>
