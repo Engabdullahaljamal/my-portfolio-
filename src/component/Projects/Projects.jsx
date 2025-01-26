@@ -60,7 +60,7 @@ function Projects({ theme }) {
         {
             img: little,
             title: 'Little lemon restaurant',
-            desc_title: 'Html-Css3- React-Vite',
+            desc_title: 'Html-Css3-React-Vite',
             href: 'https://engabdullahaljamal.github.io/little-lemon/',
             desc: 'Developed a multi-page restaurant website using React and CSS, ensuring smooth navigation and consistent performance across devices. Optimized content for mobile compatibility and improved user engagement through responsive design. '
         },
