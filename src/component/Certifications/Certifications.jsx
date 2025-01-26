@@ -1,6 +1,6 @@
 import React from 'react'
 import './Certifications.css'
-import meta from './../../assets/images/meta.jpeg'
+import meta from './../../assets/images/meta.jpg'
 import google_ux from './../../assets/images/Google_UX.jpg'
 import google_pm from './../../assets/images/Google_PM.jpg'
 import google_dm from './../../assets/images/Google_DM.jpg'
