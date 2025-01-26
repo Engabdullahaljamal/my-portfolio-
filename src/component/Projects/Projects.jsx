@@ -9,8 +9,8 @@ import dashboard from './../../assets/images/dashboard.jpeg'
 import shoes from './../../assets/images/shoes.jpeg'
 import institute from './../../assets/images/education_library.jpg'
 import crypto from './../../assets/images/crypto.jpeg'
-import mobile from './../../assets/images/Phone.jpeg'
-import Apartment from './../../assets/images/Apartment.jpeg'
+import mobile from './../../assets/images/Phone.jpg'
+import Apartment from './../../assets/images/Apartment.jpg'
 
 function Projects({ theme }) {
     const button = {
