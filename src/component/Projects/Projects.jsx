@@ -2,8 +2,8 @@ import MainButton from '../MainButton/MainButton'
 import ProjectCard from '../ProjectCard/ProjectCard';
 import './Projects.css'
 import { GoArrowUpRight } from "react-icons/go";
-import educational from './../../assets/images/educational.webp'
-import little from './../../assets/images/little.webp'
+import educational from './../../assets/images/educational.jpeg'
+import little from './../../assets/images/little.jpg'
 import villa from './../../assets/images/villa.jpg'
 import dashboard from './../../assets/images/dashboard.jpeg'
 import shoes from './../../assets/images/shoes.jpeg'
