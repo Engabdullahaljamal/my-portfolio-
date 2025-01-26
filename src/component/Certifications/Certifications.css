@@ -1,0 +1,40 @@
+.certifications {
+    padding: 100px 60px;
+
+}
+
+.certifications.dark {
+    background-color: #1B2431;
+    color: white !important;
+}
+
+.certifications h2 {
+    width: 100%;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    color: #1B2431;
+    margin-top: 20px !important;
+    margin-bottom: 100px !important;
+}
+
+.certifications.dark h2 {
+    color: white;
+}
+
+.certificate_card_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    flex-wrap: wrap;
+
+}
+
+@media screen and (max-width:800px) {
+    .certifications {
+        padding: 100px 20px;
+    }
+}

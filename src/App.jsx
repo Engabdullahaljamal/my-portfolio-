@@ -9,11 +9,12 @@ import Try from './component/Try/Try'
 import Projects from './component/Projects/Projects'
 import Contact from './component/Contact/Contact'
 import Footer from './component/Footer/Footer'
+import Certifications from './component/Certifications/Certifications'
 
 function App() {
 
   const [theme, seTheme] = useState('light')
-  
+
   return (
     <>
       <Navbar seTheme={seTheme} theme={theme} />
@@ -23,6 +24,7 @@ function App() {
       <Education theme={theme} />
       <Try theme={theme} />
       <Projects theme={theme} />
+      <Certifications theme={theme}/>
       <Contact theme={theme} />
       <Footer theme={theme} />
     </>

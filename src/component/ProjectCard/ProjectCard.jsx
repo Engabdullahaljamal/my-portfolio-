@@ -7,9 +7,10 @@ function ProjectCard({ card_info }) {
                 <img id='img' src={card_info.img} alt="image" />
                 <h5>{card_info.title}</h5>
                 <div>
-                    <p>{card_info.desc}</p>
+                    <p>{card_info.desc_title}</p>
                     <a href={card_info.href}> <CgArrowTopRightO /></a>
                 </div>
+                <p className='project_desc'>{card_info.desc}</p>
 
 
 

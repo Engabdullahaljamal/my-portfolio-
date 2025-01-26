@@ -1,11 +1,17 @@
 .project_card {
-    max-width: 370px !important;
+    max-width: 380px !important;
+
+    box-shadow: 0 0 7px rgb(128, 124, 124);
+    border-radius: 7px;
+    height: 550px;
 
 }
 
 .project_card img {
-   width: 100%;
+    width: 100%;
     border-radius: 8px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 .project_card h5 {
@@ -15,8 +21,9 @@
     line-height: 33px;
     text-align: left;
     color: #1D2130;
+    padding: 0px 20px;
     padding-top: 20px;
-    padding-bottom: 7px;
+
 }
 
 .project_card div {
@@ -24,6 +31,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 20px;
+    padding-bottom: 10px;
 }
 
 .project_card div p {
@@ -32,11 +41,18 @@
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #1D2130;
+    color: #0C96E2;
 }
 
 .project_card div svg {
     font-size: 35px;
     color: #0C96E2;
     cursor: pointer;
+}
+
+.project_desc {
+    padding: 20px;
+    padding-top: 0px;
+    color: rgb(144, 138, 138);
+
 }

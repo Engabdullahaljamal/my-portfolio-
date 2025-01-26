@@ -40,7 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 75px;
     flex-wrap: wrap;
 }
 
@@ -52,7 +52,7 @@
 
 .projects.dark h5,
 .projects.dark h2,
-.projects.dark p {
+.projects.dark .project_desc {
     color: white;
 }
 

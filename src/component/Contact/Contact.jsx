@@ -15,7 +15,7 @@ function Contact({ theme }) {
         {
             icon: <FiPhone />,
             title: 'Call me',
-            value: '201 693 0516',
+            value: '+1 201 693 0516',
         },
         {
             icon: <MdOutlineMail />,
