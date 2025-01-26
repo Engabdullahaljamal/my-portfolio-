@@ -2,15 +2,15 @@ import MainButton from '../MainButton/MainButton'
 import ProjectCard from '../ProjectCard/ProjectCard';
 import './Projects.css'
 import { GoArrowUpRight } from "react-icons/go";
-import educational from './../../assets/images/educational.jpeg'
-import little from './../../assets/images/little.jpeg'
+import educational from './../../assets/images/educational.webp'
+import little from './../../assets/images/little.webp'
 import villa from './../../assets/images/villa.jpg'
 import dashboard from './../../assets/images/dashboard.jpeg'
 import shoes from './../../assets/images/shoes.jpeg'
 import institute from './../../assets/images/education_library.jpg'
 import crypto from './../../assets/images/crypto.jpeg'
-import mobile from './../../assets/images/Phone.jpg'
-import Apartment from './../../assets/images/Apartment.jpg'
+import mobile from './../../assets/images/Phone.webp'
+import Apartment from './../../assets/images/Apartment.webp'
 
 function Projects({ theme }) {
     const button = {
