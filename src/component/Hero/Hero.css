@@ -113,11 +113,12 @@
 @media screen and (max-width:1028px) {
     .hero {
         flex-direction: column-reverse;
-        height: max-content;
+
         padding-top: 100px;
     }
 
     .hero img {
+        margin-top: 80px !important; 
         width: 220px;
     }
 
