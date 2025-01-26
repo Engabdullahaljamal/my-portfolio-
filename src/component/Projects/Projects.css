@@ -51,9 +51,12 @@
 }
 
 .projects.dark h5,
-.projects.dark h2,
-.projects.dark .project_desc {
+.projects.dark h2 {
     color: white;
+}
+
+.projects.dark .project_desc {
+    color: #98A2B3;
 }
 
 @media screen and (max-width:800px) {

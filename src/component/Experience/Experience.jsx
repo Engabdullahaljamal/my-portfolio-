@@ -6,8 +6,8 @@ function Experience({ theme }) {
         {
             title: 'Mern Stack Developer Intern',
             company: 'Focal X Agency',
-            company_href:'https://www.focal-x.com/',
-            date: '08/2024 - Present',
+            company_href: 'https://www.focal-x.com/',
+            date: '08/2024 - 12/2024',
             location: 'latakia, Syria',
             desc: [
                 'ollaborated with a team of developers to build and maintain full-stack web applications using MongoDB, Express.js, React, and Node.js (MERN).',
@@ -15,15 +15,15 @@ function Experience({ theme }) {
                 'Implemented responsive UI components using React.js and React Hooks, ensuring cross-browser compatibility and optimized rendering.',
                 'Leveraged MongoDB for database management, designing schemas, and implementing data models with Mongoose.',
                 'Enhanced backend performance by optimizing Express.js middleware and using Node.js to streamline server-side logic.',
-               
+
             ]
 
         },
         {
-            title: 'FrontEnd Developer Intern',
+            title: 'FrontEnd Developer',
             company: 'Vica Web Solutions',
-            company_href:'https://vica.website/',
-            date: '04/2024 - Present',
+            company_href: 'https://vica.website/',
+            date: '04/2024 - 1/2025',
             location: 'Damascus, Syria',
             desc: [
                 'Utilized HTML, CSS, and JavaScript to create visually appealing and responsive web pages that met client requirements.',
@@ -38,8 +38,8 @@ function Experience({ theme }) {
         {
             title: 'Backend Developer Intern',
             company: 'Focal X Agency',
-            company_href:'https://www.focal-x.com/',
-            date: '02/2024 - 05/2024',
+            company_href: 'https://www.focal-x.com/',
+            date: '02/2024 - 06/2024',
             location: 'latakia, Syria',
             desc: [
                 ' Utilized Laravel framework, PHP, and MVC design patterns for backend development.',
@@ -55,7 +55,7 @@ function Experience({ theme }) {
         {
             title: 'FrontEnd Developer Intern',
             company: 'Focal X Agency',
-            company_href:'https://www.focal-x.com/',
+            company_href: 'https://www.focal-x.com/',
             date: '07/2023 - 02/2024',
             location: 'latakia, Syria',
             desc: [
@@ -78,8 +78,8 @@ function Experience({ theme }) {
 
             <div className='experience_card_container'>
                 {
-                    experience.map((e,i) => {
-                        return <ExperienceCard theme={theme} experience={e} key={i}/>
+                    experience.map((e, i) => {
+                        return <ExperienceCard theme={theme} experience={e} key={i} />
                     })
                 }
             </div>

@@ -19,10 +19,10 @@ function Education({ theme }) {
 
         },
         {
-            title: "Bachelor's degree in Informatics Engineering ",
+            title: "Bachelor's degree in Software Engineering",
             company: 'Tishreen University',
             company_href: 'https://tishreen.edu.sy/en/Faculty/Index/51/Faculty-of-Informatics-Engineering#:~:text=The%20Faculty%20of%20Informatics%20Engineering,pioneer%20in%20the%20field%20of',
-            date: '01/2015 - 11/2020',
+            date: '01/2015 - 1/2021',
             location: 'latakia, Syria',
             desc: [
                 "Holds the U.S. equivalent of a Bachelor's Degree in Information Systems from Educational Credential Evaluators (ECE).",
@@ -42,7 +42,7 @@ function Education({ theme }) {
 
             <div className='experience_card_container'>
                 {
-                    education.map((e,i) => {
+                    education.map((e, i) => {
                         return <ExperienceCard theme={theme} experience={e} education='education' key={i} />
                     })
                 }
