@@ -1,5 +1,5 @@
 import './Try.css'
-import try_img from './../../assets/images/try_section_img.png'
+import try_img from './../../assets/images/try_section_img.webp'
 import { FaArrowRight } from "react-icons/fa6";
 import MainButton from '../MainButton/MainButton';
 

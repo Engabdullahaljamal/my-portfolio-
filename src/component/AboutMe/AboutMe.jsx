@@ -1,10 +1,10 @@
 import './AboutMe.css'
-import css_img from './../../assets/images/css.png'
-import figma_img from './../../assets/images/figma.png'
-import git_black_img from './../../assets/images/git_black.png'
-import git_white_img from './../../assets/images/git_white.png'
-import html_img from './../../assets/images/html5.png'
-import react_img from './../../assets/images/react.png'
+import css_img from './../../assets/images/css.webp'
+import figma_img from './../../assets/images/figma.webp'
+import git_black_img from './../../assets/images/git_black.webp'
+import git_white_img from './../../assets/images/git_white.webp'
+import html_img from './../../assets/images/html5.webp'
+import react_img from './../../assets/images/react.webp'
 import SkillLine from '../SkillLine/SkillLine'
 
 
