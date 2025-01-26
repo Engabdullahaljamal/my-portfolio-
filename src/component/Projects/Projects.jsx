@@ -74,7 +74,7 @@ function Projects({ theme }) {
         {
             img: crypto,
             title: 'crypto login,sign up pages',
-            desc_title: 'Html-Css3-React--Webpack',
+            desc_title: 'Html-Css3-React-Webpack',
             href: 'https://engabdullahaljamal.github.io/crypto_log_sign_pages/',
             desc: 'Developed login and signup pages for a crypto website using React.js. Focused on smooth user authentication and integration with crypto platforms to enhance security and user experience.'
         },
