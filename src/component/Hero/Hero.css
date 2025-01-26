@@ -86,6 +86,8 @@
     cursor: pointer;
     z-index: 3;
     color: white;
+    font-size: 16px;
+    text-align: center;
 }
 
 .hero img {
@@ -118,7 +120,7 @@
     }
 
     .hero img {
-        margin-top: 80px !important; 
+        margin-top: 80px !important;
         width: 220px;
     }
 
