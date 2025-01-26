@@ -7,7 +7,7 @@ function Footer({ theme }) {
     return (
         <div className={`footer ${theme}`}>
             <p>@ 2024. All Rights Reserved</p>
-            <p>Develpoment by Eng Abdullah</p>
+            <p>Developed by Abdullah Aljamal</p>
             <div className='footer_icon_container'>
 <a href='https://www.facebook.com/abdullah.aljaml?mibextid=LQQJ4d'><FaFacebookF /></a>
 <a href=''><FaXTwitter /></a>

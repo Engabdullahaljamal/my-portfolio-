@@ -42,12 +42,14 @@ function Projects({ theme }) {
             desc: 'Designed and developed a multi-page villa sales website using Vite and Pure CSS. Built dynamic components, filter buttons, and a hero slider to enhance interactivity. Optimized for all screen sizes to provide a seamless browsing experience across devices.'
         },
         {
-            img: little,
-            title: 'Little lemon restaurant',
-            desc_title: 'Html-Css3- React',
-            href: 'https://engabdullahaljamal.github.io/little-lemon/',
-            desc: 'Developed a multi-page restaurant website using React and CSS, ensuring smooth navigation and consistent performance across devices. Optimized content for mobile compatibility and improved user engagement through responsive design. '
+            img: Apartment,
+            title: 'Apartment Sales',
+            desc_title: 'Html-Css3-React-Vite',
+            href: 'https://engabdullahaljamal.github.io/Task_5/',
+            desc: 'Built a landing page for apartment sales using Vite and React. Managed dynamic content with components and props while styling with Pure CSS. Ensured seamless user experience with full responsiveness across devices.'
         },
+
+
         {
             img: shoes,
             title: 'shoes store',
@@ -56,18 +58,11 @@ function Projects({ theme }) {
             desc: 'Developed a dynamic shop page with JavaScript, featuring real-time product search and a functional shopping cart. Enabled users to add, remove, and manage items in their cart efficiently.'
         },
         {
-            img: institute,
-            title: 'Education institute',
-            desc_title: 'Html-Css3',
-            href: 'https://engabdullahaljamal.github.io/task4_2/',
-            desc: ' fully responsive website designed using HTML5 and CSS3 to provide a seamless user experience across all devices,Optimized spacing and visual balance for readability.'
-        },
-        {
-            img: crypto,
-            title: 'crypto login,sign up pages',
-            desc_title: 'Html-Css3-React--Webpack',
-            href: 'https://engabdullahaljamal.github.io/crypto_log_sign_pages/',
-            desc: 'Developed login and signup pages for a crypto website using React.js. Focused on smooth user authentication and integration with crypto platforms to enhance security and user experience.'
+            img: little,
+            title: 'Little lemon restaurant',
+            desc_title: 'Html-Css3- React-Vite',
+            href: 'https://engabdullahaljamal.github.io/little-lemon/',
+            desc: 'Developed a multi-page restaurant website using React and CSS, ensuring smooth navigation and consistent performance across devices. Optimized content for mobile compatibility and improved user engagement through responsive design. '
         },
         {
             img: mobile,
@@ -77,11 +72,18 @@ function Projects({ theme }) {
             desc: 'Built a responsive multi-page mobile shop using React. Fetched product data from APIs to deliver dynamic content and seamless user interaction. Ensured smooth performance across devices with an engaging UI.'
         },
         {
-            img: Apartment,
-            title: 'Apartment Sales',
-            desc_title: 'Html-Css3-React-Vite',
-            href: 'https://engabdullahaljamal.github.io/task3_2/',
-            desc: 'Built a landing page for apartment sales using Vite and React. Managed dynamic content with components and props while styling with Pure CSS. Ensured seamless user experience with full responsiveness across devices.'
+            img: crypto,
+            title: 'crypto login,sign up pages',
+            desc_title: 'Html-Css3-React--Webpack',
+            href: 'https://engabdullahaljamal.github.io/crypto_log_sign_pages/',
+            desc: 'Developed login and signup pages for a crypto website using React.js. Focused on smooth user authentication and integration with crypto platforms to enhance security and user experience.'
+        },
+        {
+            img: institute,
+            title: 'Education institute',
+            desc_title: 'Html-Css3',
+            href: 'https://engabdullahaljamal.github.io/task4_2/',
+            desc: ' fully responsive website designed using HTML5 and CSS3 to provide a seamless user experience across all devices,Optimized spacing and visual balance for readability.'
         },
 
     ]
