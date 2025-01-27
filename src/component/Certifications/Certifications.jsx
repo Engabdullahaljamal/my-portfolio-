@@ -37,7 +37,7 @@ function Certifications({ theme }) {
             img_src: focal_x_back
         },]
     return (
-        <div className={`certifications ${theme}`}>
+        <div className={`certifications ${theme}`} id="Certification">
             <h2>Certifications</h2>
             <div className='certificate_card_container'>
                 {
